@@ -1,0 +1,57 @@
+:root {
+    --base: #191724;
+    --surface: #1f1d2e;
+    --text: #e0def4;
+    --highlight: #c4a7e7;
+    --accent-love: #eb6f92;
+    --accent-gold: #f6c177;
+    --accent-foam: #9ccfd8;
+    --accent-iris: #31748f;
+}
+
+htlml, body {
+    background-color: var(--base);
+    color: var(--text);
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, label, span {
+    color: var(--text);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 50px;
+}
+
+.container {
+    background-color: var(--surface);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(224, 222, 244, 0.1);
+    width: 80%;
+    max-width: 1000px;
+}
+
+table {
+    width: 100%;
+    background-color: var(--highlight);
+    color: var(--base);
+    border: 1px solid var(--accent-foam);
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid var(--surface);
+    text-align: left;
+}
+
+th {
+    background-color: var(--accent-iris);
+    color: var(--text);
+}
